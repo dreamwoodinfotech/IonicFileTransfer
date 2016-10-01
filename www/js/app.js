@@ -77,7 +77,7 @@ angular.module('starter', ['ionic','ngCordova'])
   }
 
 
-    $scope.test = function(){
+    $scope.testFun = function(){
         alert("Testing");
     }
 })
