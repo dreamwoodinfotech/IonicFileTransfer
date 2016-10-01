@@ -75,4 +75,9 @@ angular.module('starter', ['ionic','ngCordova'])
           // PROGRESS HANDLING GOES HERE
       });
   }
+
+
+    $scope.test = function(){
+        alert("Testing");
+    }
 })
