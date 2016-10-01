@@ -36,7 +36,8 @@ angular.module('starter', ['ionic','ngCordova'])
       var filename = url.split("/").pop();
 
       // Save location
-      var targetPath = cordova.file.externalRootDirectory + filename;
+      //var targetPath = cordova.file.externalRootDirectory + filename;
+      var targetPath = "/sdcard/Download/logo.png";
 
       $cordovaFileTransfer.download(url, targetPath, {}, true).then(function (result) {
           console.log('Success');
